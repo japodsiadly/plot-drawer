@@ -1,0 +1,91 @@
+body {
+    background-color: lightgray;
+}
+
+.page {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.bg-dogs {
+    background-color: #edb13f;
+}
+
+.bg-dogs a {
+    color: #000000 !important;
+}
+
+.dogs img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 26px;
+}
+
+.dogs-header {
+    font-family: 'Hubballi', cursive;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0;
+    padding-top: 20px;
+    color: #283c5f;
+}
+
+.main-dogs-text {
+    font-family: 'Hubballi', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main-dogs-figcaption {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.dogs-subheader {
+    font-family: 'Hubballi', cursive;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    padding-top: 20px;
+    color: #283c5f;
+}
+
+.other-dogs-figcaption {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.Xbuttons {
+    float: right;
+    margin: 20px;
+}
+
+.equation{
+    justify-content: center;
+    text-align: center;
+}
+
+.equation-static {
+    float: left;
+    font-size: 30px;
+}
+
+.equation-coefficient {
+    float: left;
+    width: 60px;
+    height: 30px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.chartButton {
+    text-align: center;
+    justify-content: center;
+    margin: 30px;
+}

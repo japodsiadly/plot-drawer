@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title> Strona Jakuba Podsiadłego </title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">-->
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="shortcut icon" href="https://japodsiadly.github.io/J-letter.jpg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-light bg-dogs navbar-expand-md">
+        <img class="navbar-brand d-inline-block mx-4" src="logo.png" width="34" height="50" alt="">
+
+        <button id="tooglebutton" class="navbar-toggler" type="button" aria-controls="menu" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-center" id="menu">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link " href="#" data-target="home"> Strona główna </a></li>
+
+                <li class="nav-item"><a class="nav-link " href="#" data-target="articles"> Artykuły </a></li>
+
+                <li class="nav-item"><a class="nav-link " href="#" data-target="photos"> Zdjęcia </a></li>
+
+                <li class="nav-item"><a class="nav-link " href="#" data-target="films"> Filmy </a></li>
+
+                <li class="nav-item"><a class="nav-link " href="#" data-target="charts"> Rysowanie wykresów </a></li>
+
+                <li class="nav-item"><a class="nav-link " href="#" data-target="git"> Github </a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="dogs">
+        <div class="container page" id="home">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="dogs-header"> Moje ulubione rasy psów </h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6">
+                    <figure>
+                        <img src="https://japodsiadly.github.io/images/Zadanie_3/Samojed.jpg" alt="Samojed image">
+                        <figcaption class="main-dogs-figcaption"> Samojed</figcaption>
+                        <p class="main-dogs-text">
+                            Średniej wielkości pies o eleganckiej i pełnej wdzięki sylwetce wpisanej w kwadrat.
+                            Masa ciała dorosłego osobnika dochodzi do 30 kg, a wysokość w kłębie u samców wynosi
+                            54 – 60 cm, natomiast samic 50 – 56 cm. Samojedy to psy muskularne, zbite. Ich silna i
+                            duża głowa osadzona jest na potężnej szyi. Charakterystyczny uśmiech rasa ta zawdzięcza
+                            lekko skośnym, ciemnym i szeroko rozstawionym oczom i szerokim wargom o ciemnej pigmentacji.
+                            Małe, szpiczaste, stojące i wysoko osadzone uszy dopełniają ten obraz. Tułów samojeda jest
+                            raczej krótki. Dużą uwagę zwraca ogon, w spoczynku – noszony nisko, podczas ruchu –
+                            zawinięty nad grzbietem lub zagięty w bok.
+                        </p>
+                    </figure>
+                </div>
+
+                <div class="col-sm-6">
+                    <figure>
+                        <img src="https://japodsiadly.github.io/images/Zadanie_3/Owczarek szkocki długowłosy.jpg"
+                             alt="Owczarek szkocki długowłosy image">
+                        <figcaption class="main-dogs-figcaption"> Owczarek szkocki długowłosy</figcaption>
+                        <p class="main-dogs-text">
+                            Szkocki owczarek ma mocną budowę ciała, wysportowaną i umięśnioną. Średnia budowa ciała nie
+                            może być niezgrabna. Wysokość w kłębie wynosi około 55 – 60 cm, samice są troszkę niższe.
+                            Długość ciała jest nieznacznie większa, przez co sylwetka wpisuje się w prostokąt. Głowa
+                            collie jest kształtu idealnego, ale ściętego klina, Migdałowe, skośne oczy są
+                            charakterystyczne dla rasy, nadają uśmiechniętego i miłego wyrazu. Uszy są małe, załamane
+                            w ok. 2/3 wysokości. Szkocki collie ma bardzo mocno rozbudowaną, głęboką klatkę piersiową,
+                            co jest typowe dla ras pasterskich. Grzbiet mocny, a kończyny dobrze ukątowane.
+                        </p>
+                    </figure>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="dogs-subheader"> Inne rasy psów które lubię </h1>
+                </div>
+            </div>
+
+            <div class="row  align-items-center">
+                <!--                 TODO: tu po kliknięcu miałby się rozwijać opis tej rasy-->
+                <div class="col-sm-6 col-md-4">
+                    <img class="other-dogs-image" src="https://japodsiadly.github.io/images/Zadanie_3/Shih tzu.jpg"
+                         alt="Shih tzu image">
+                    <p class="other-dogs-figcaption"> Shih tzu </p>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <img class="other-dogs-image" src="https://japodsiadly.github.io/images/Zadanie_3/Beagle.jpg"
+                         alt="Beagle image">
+                    <p class="other-dogs-figcaption"> Beagle</p>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <img class="other-dogs-image"
+                         src="https://japodsiadly.github.io/images/Zadanie_3/Golden retriever.jpg"
+                         alt="Golden retriever image">
+                    <p class="other-dogs-figcaption"> Golden retriever</p>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <img class="other-dogs-image"
+                         src="https://japodsiadly.github.io/images/Zadanie_3/Cavalier king charles spaniel.jpg"
+                         alt="Cavalier king charles spaniel image">
+                    <p class="other-dogs-figcaption"> Cavalier king charles spaniel</p>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <img class="other-dogs-image" src="https://japodsiadly.github.io/images/Zadanie_3/Chihuahua.jpg"
+                         alt="Chihuahua image">
+                    <p class="other-dogs-figcaption"> Chihuahua (cziłała)</p>
+                </div>
+
+                <div class="col-sm-6 col-md-4">
+                    <img class="other-dogs-image" src="https://japodsiadly.github.io/images/Zadanie_3/Akita inu.jpg"
+                         alt="Akita inu image">
+                    <p class="other-dogs-figcaption"> Akita inu</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1 class="dogs-subheader" style="font-size: 30px;"> Udomowienie psa odbyło się najprawdopodobniej
+                        na Syberii </h1>
+                </div>
+                <div class="col-sm-3">
+                    <p>
+                        Uważa się, że psy były pierwszym udomowionym zwierzęciem. Jednak ustalenie szczegółów tego
+                        procesu nie jest łatwe. Naukowcom może być trudno odróżnić odkryte szczątki starożytnych
+                        wilków i wcześnie udomowionych psów. - Wyzwaniem dla wszystkich podobnych badań jest
+                        jednoznaczne wykazanie, w oparciu o kilka linii dowodów, że dany okaz można wyraźnie odróżnić
+                        od współczesnych wilków.
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <p>
+                        Najwcześniejsze ogólnie akceptowane szczątki psów domowych zostały odkryte w Europie - w
+                        Niemczech. Kości te mają około 15 tys. lat. Ale w badaniach nad udomowieniem psów nie tylko
+                        zapis kopalny ma znaczenie. Analizy genetyczne wykazały, że najwcześniejsze rasy psów są
+                        starsze niż odkryte w Europie pozostałości archeologiczne i to o kilka tysięcy lat. Dzięki
+                        nowoczesnym metodom analizy DNA, uczeni bardzo dokładnie przyglądnęli się tzw. haplogrupom,
+                        czyli podobnym ze względu na pochodzenie grupom genów przekazywanym na dalsze pokolenia od
+                        wspólnego przodka. Szacowany wiek jednej z takich populacji genetycznych to 22,8 tys. lat.
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <p>
+                        Porównując tę populację z kolejnymi liniami haplogrup, które oddzieliły się od wspólnego
+                        przodka - w tym liniami, które pojawiły się w obu Amerykach mniej więcej w tym samym czasie,
+                        co osadnicy ludzcy - naukowcy stworzyli oś czasu przedstawiającą, w jaki sposób psy i ich geny
+                        rozpraszały się po Ziemi. Analiza sugeruje, że ludziom w migracjach towarzyszyły udomowione już
+                        psy, gdy podróżowali do nowych miejsc, w tym do obu Ameryk. Podróżujące z człowiekiem psy mają,
+                        jak wynika z badań, genetyczne powiązania z Syberią z czasów poprzedzających zasiedlenie Ameryk
+                        o około 7000 lat.
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <p>
+                        Badacze sugerowali wcześniej, że psy zostały udomowione w całej Eurazji - od Europy po Chiny.
+                        Połączone dowody pochodzące od starożytnych ludzi i psów pomagają udoskonalić nasze zrozumienie
+                        wspólnej historii psów i ludzi i obecnie wskazują na Syberię i północno-wschodnią Azję jako
+                        prawdopodobny region, w którym rozpoczął się proces udomawiania psów – powiedział Greger Larson
+                        z Oxford University, współautor badań.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container page" id="articles">
+        <h1> W fazie dodawania Artykułów</h1>
+    </div>
+
+    <div class="container page" id="photos">
+        <h1> W fazie dodawania Zdjęć</h1>
+    </div>
+
+    <div class="container page" id="films">
+        <h1> W fazie dodawania Filmów</h1>
+    </div>
+
+    <div class="container page active" id="charts" style="text-align: center">
+        <h1> Rysowanie wykresów funkcji wielomianowych: </h1>
+        <p> Podaj swoją funkcję (tylko liczby dodatnie): </p>
+
+        <div class="Xbuttons">
+            <button id="increaseX"> Zwiększ potęgę x</button>
+            <button id="decreaseX"> Zmniejsz potęgę x</button>
+        </div>
+        <div style="clear: both"></div>
+
+        <p class="equation-static"> Y = </p>
+
+        <div class="equation"></div>
+        <div style="clear: both"></div>
+
+        <div class="chartButton">
+            <button id="drawChart"> Narysuj wykres</button>
+        </div>
+
+        <div id="plot2">
+            <p id="allZeroError"> </p>
+            <canvas id="plot" width="800px" height="600px"></canvas>
+        </div>
+    </div>
+
+    <div class="container page" id="git">
+        <h1> Link do mojego Gita: </h1>
+        <a href="https://github.com/japodsiadly">https://github.com/japodsiadly</a>
+    </div>
+</main>
+<script src="https://unpkg.com/function-plot/dist/function-plot.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
