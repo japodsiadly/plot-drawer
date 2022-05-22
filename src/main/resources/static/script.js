@@ -123,8 +123,6 @@ makeChartButton.addEventListener('click', () => {
         }
     }
 
-    console.log(dateToDrawAPlot.toString());
-
     const isAllZero = dateToDrawAPlot.every(item => item === 0);
 
     if (dateToDrawAPlot.length === 0 || isAllZero) { //TODO: inaczej rozwiązać te exceptiony
@@ -134,7 +132,6 @@ makeChartButton.addEventListener('click', () => {
 
     let xhr = new XMLHttpRequest();
     xhr.open("POST", "https://drawplot-new.herokuapp.com/makePlot");
-    // xhr.open("POST", "http://localhost:8080/makePlot");
     xhr.setRequestHeader("Accept", "application/json");
     xhr.setRequestHeader("Content-Type", "application/json");
 
