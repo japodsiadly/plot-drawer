@@ -133,7 +133,8 @@ makeChartButton.addEventListener('click', () => {
     }
 
     let xhr = new XMLHttpRequest();
-    xhr.open("POST", "http://localhost:8080/makePlot");
+    xhr.open("POST", "https://drawplot-new.herokuapp.com/makePlot");
+    // xhr.open("POST", "http://localhost:8080/makePlot");
     xhr.setRequestHeader("Accept", "application/json");
     xhr.setRequestHeader("Content-Type", "application/json");
 
